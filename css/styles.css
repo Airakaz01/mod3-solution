@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	font-weight: bold;
+}
+nav {
+	padding-bottom: 25px;
+	background-color: red;
+}
+
+.navbar-brand {
+	margin-top: -6px;
+	padding: 1px;
+	text-decoration: black;
+}
+.navbar-brand h2 {
+	color: black;
+}
+.items {
+	background-color: gray;
+	border: 2px solid;
+	margin: 10px;
+	
+}
+.item{
+	text-align: center;
+}
+p {
+	margin: auto 10px auto 10px;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	text-align: center;
+	color: black ;
+	background-color: white;
+}
+#nav-list a:hover {
+	background-color: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+.navbar-default {
+    background-color:gray;
+}
+.navbar-header button.navbar-toggle ,.navbar-header .icon-bar {
+	border: 1px solid white;
+}
